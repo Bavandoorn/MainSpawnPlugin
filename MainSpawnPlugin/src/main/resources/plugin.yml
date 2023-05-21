@@ -1,0 +1,15 @@
+name: MainSpawnPlugin
+version: '${project.version}'
+main: me.mainspawnplugin.MainSpawnPlugin
+api-version: 1.19
+commands:
+  setmainspawn:
+    description: Set the main spawn point.
+    usage: /setmainspawn
+  spawn:
+    description: Teleport to the main spawn point.
+    usage: /spawn
+  hub:
+    description: Teleport to the hub/lobby.
+    usage: /hub
+    aliases: [lobby]
